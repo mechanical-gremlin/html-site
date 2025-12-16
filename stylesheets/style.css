@@ -51,19 +51,19 @@ nav ul li a:hover {
 }
 
 /* Header Styling */
-header{
+header {
     text-align: center;
     padding: 40px 20px 20px;
     background-color: #f0f0f0;
 }
 
-header h1{
+header h1 {
     color: #333;
     margin-bottom: 10px;
 }
 
 header p {
-    color:#666;
+    color: #666;
 }
 
 /* Main Content */
