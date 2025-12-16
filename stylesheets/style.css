@@ -50,3 +50,66 @@ nav ul li a:hover {
     }
 }
 
+/* Header Styling */
+
+
+/* Main Content */
+main {
+    display: grid;
+    gap: 20px;
+    max-width:1400px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    flex: 1;
+
+    grid-template-columns: 1fr;
+}
+
+@media (min-windth: 767px){
+    main{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 1200px){
+    main{
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+.content-item {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,1);
+    transition: transform 0.3s ease;
+}
+
+.content-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+.content-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+.content-item h3{
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.content-item p{
+    color: #666;
+    line-height: 1.6;
+}
+
+.content-item video{
+    width: 100%;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
