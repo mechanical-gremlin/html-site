@@ -75,7 +75,7 @@ header.hero-image {
     position: relative;
 }
 
-.hero-text h1,p {
+.hero-text {
     position: absolute;
     top: 50%;
     left: 50%;
